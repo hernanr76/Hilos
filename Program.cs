@@ -1,4 +1,5 @@
-﻿using Hilos;
+﻿//----------------------------------------------------------------------------
+using Hilos;
 
 Console.WriteLine($"Main Thread: {Environment.CurrentManagedThreadId}");
 
@@ -11,6 +12,8 @@ while (true)
     Console.Write(".");
     Thread.Sleep(200);
 }
+
+//----------------------------------------------------------------------------
 
 //Evento
 static void EventSeconds(int n)
